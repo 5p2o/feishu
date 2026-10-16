@@ -1,0 +1,16 @@
+{
+  "name": "feishu-forward-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "飞书群消息转发机器人：Vercel 云函数 + 飞书事件订阅，零设备常开",
+  "main": "api/webhook.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "chats": "node scripts/list-chats.js",
+    "dev": "node scripts/dev-server.js"
+  },
+  "dependencies": {}
+}
